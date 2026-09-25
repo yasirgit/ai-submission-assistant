@@ -1,0 +1,204 @@
+:root {
+  color: #1c1917;
+  background: #f6f4f1;
+  font-family: "Iowan Old Style", Palatino, Georgia, serif;
+  line-height: 1.45;
+}
+
+body {
+  margin: 0;
+}
+
+header.top,
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+header.top {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+  border-bottom: 1px solid #d6d3d1;
+}
+
+.brand {
+  margin: 0;
+  font-weight: 700;
+}
+
+.disclaimer {
+  margin: 0.25rem 0 0;
+  color: #7c2d12;
+  font-size: 0.95rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+}
+
+select,
+textarea,
+button {
+  font: inherit;
+}
+
+button {
+  background: #1c1917;
+  color: #fafaf9;
+  border: 0;
+  border-radius: 4px;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+button.link {
+  background: none;
+  color: #1d4ed8;
+  padding: 0;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.5rem 0.6rem;
+  border-bottom: 1px solid #e7e5e4;
+  vertical-align: top;
+}
+
+.muted {
+  color: #57534e;
+}
+
+.error {
+  color: #991b1b;
+}
+
+.meta {
+  color: #44403c;
+}
+
+.facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.25rem 1rem;
+}
+
+.facts p {
+  margin: 0;
+}
+
+.analysis {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.ai-draft,
+.human-decision,
+.review-form {
+  background: white;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.ai-draft {
+  border-left: 6px solid #d97706;
+}
+
+.human-decision {
+  border-left: 6px solid #15803d;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.flags,
+.sources,
+.audit {
+  list-style: none;
+  padding: 0;
+}
+
+.flags li,
+.sources li,
+.audit li {
+  display: grid;
+  gap: 0.15rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e7e5e4;
+}
+
+.severity {
+  justify-self: start;
+  font-size: 0.75rem;
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+}
+
+.severity-high {
+  background: #fecaca;
+}
+
+.severity-medium {
+  background: #fde68a;
+}
+
+.severity-low {
+  background: #e7e5e4;
+}
+
+.audit pre {
+  margin: 0;
+  white-space: pre-wrap;
+  font-size: 0.8rem;
+}
+
+.choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.choices label,
+.stack {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.stack {
+  flex-direction: column;
+  margin-top: 0.75rem;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+  header.top {
+    flex-direction: column;
+  }
+}
