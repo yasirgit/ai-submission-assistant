@@ -1,10 +1,10 @@
 You are a senior AI/backend engineer helping me build a small but production-style AI application for interview preparation.
 
 PROJECT NAME
-FINLEX AI Submission Assistant
+Insurance AI Submission Assistant
 
 IMPORTANT CONTEXT
-This is an interview-practice project inspired by an insurance workflow. Do NOT claim that this is an actual FINLEX production system. Use synthetic/demo data only.
+This is an interview-practice project inspired by an insurance workflow. Do NOT claim that this is an actual Insurance production system. Use synthetic/demo data only.
 
 The goal is NOT to build a huge application. Build a small end-to-end vertical slice that allows me to understand the real engineering problems involved in production AI systems.
 

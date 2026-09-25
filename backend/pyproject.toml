@@ -1,7 +1,7 @@
 [project]
-name = "finlex-submission-assistant"
+name = "insurance-submission-assistant"
 version = "0.1.0"
-description = "Demo AI submission assistant for interview practice. Not a production FINLEX system."
+description = "Demo AI submission assistant for interview practice. Not a production Insurance system."
 requires-python = ">=3.12"
 dependencies = [
     "fastapi>=0.115",

@@ -1,8 +1,8 @@
 # Architecture
 
-FINLEX AI Submission Assistant is a demo vertical slice. An underwriter opens a synthetic insurance submission. The system retrieves a few guideline chunks, asks a model for a validated JSON analysis, and waits. A person accepts, edits, or rejects that draft. The model never approves or declines cover.
+Insurance AI Submission Assistant is a demo vertical slice. An underwriter opens a synthetic insurance submission. The system retrieves a few guideline chunks, asks a model for a validated JSON analysis, and waits. A person accepts, edits, or rejects that draft. The model never approves or declines cover.
 
-Nothing here is a real FINLEX system. Data is synthetic.
+Nothing here is a real Insurance system. Data is synthetic.
 
 ## 1. System overview
 

@@ -1,6 +1,6 @@
 # Interview preparation
 
-Practice against this repo. The product is a fictional underwriting assistant. Do not describe it as a FINLEX production system.
+Practice against this repo. The product is a fictional underwriting assistant. Do not describe it as an Insurance production system.
 
 ## 1. Explain this architecture in 5 minutes
 

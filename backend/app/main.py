@@ -1,6 +1,6 @@
 """FastAPI application.
 
-Demo only. Not a production FINLEX system.
+Demo only. Not a production Insurance system.
 AI-generated assistance — final decision remains with the underwriter.
 """
 
@@ -22,7 +22,7 @@ from app.models import Base
 from app.rag.factory import make_retriever_builder
 from app.seed import seed_if_empty
 
-logger = logging.getLogger("finlex.access")
+logger = logging.getLogger("insurance.access")
 
 
 def create_app(settings: Settings | None = None) -> FastAPI:
@@ -44,9 +44,9 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         engine.dispose()
 
     app = FastAPI(
-        title="FINLEX AI Submission Assistant",
+        title="Insurance AI Submission Assistant",
         description=(
-            "Demo only, using synthetic data. Not a production FINLEX system. "
+            "Demo only, using synthetic data. Not a production Insurance system. "
             "AI-generated assistance — final decision remains with the underwriter."
         ),
         lifespan=lifespan,

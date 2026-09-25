@@ -1,6 +1,6 @@
 """Synthetic companies, submissions, and conflicting guidelines.
 
-Nothing in this module is a real customer or a real FINLEX rule.
+Nothing in this module is a real customer or a real Insurance rule.
 """
 
 from datetime import UTC, datetime

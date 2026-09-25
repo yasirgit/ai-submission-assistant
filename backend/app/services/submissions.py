@@ -37,7 +37,7 @@ from app.services.audit import record
 from app.services.clock import new_id, utc_now
 from app.tools.gateway import ToolGateway
 
-logger = logging.getLogger("finlex.analysis")
+logger = logging.getLogger("insurance.analysis")
 
 
 @dataclass

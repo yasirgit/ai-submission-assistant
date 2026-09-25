@@ -1,8 +1,8 @@
-# FINLEX AI Submission Assistant
+# Insurance AI Submission Assistant
 
 A small, interview-oriented AI application. It is a **fictional** insurance underwriting assistant built for learning production AI engineering.
 
-This is **not** a FINLEX production system. All companies, submissions, claims, and guidelines are synthetic.
+This is **not** an Insurance production system. All companies, submissions, claims, and guidelines are synthetic.
 
 The assistant drafts an underwriting analysis. It does not approve or reject a submission. The UI and API both state: **AI-generated assistance — final decision remains with the underwriter.**
 

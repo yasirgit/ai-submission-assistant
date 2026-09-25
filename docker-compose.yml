@@ -5,11 +5,11 @@ services:
   postgres:
     image: postgres:16-alpine
     environment:
-      POSTGRES_USER: finlex
-      POSTGRES_PASSWORD: finlex
-      POSTGRES_DB: finlex
+      POSTGRES_USER: insurance
+      POSTGRES_PASSWORD: insurance
+      POSTGRES_DB: insurance
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U finlex -d finlex"]
+      test: ["CMD-SHELL", "pg_isready -U insurance -d insurance"]
       interval: 5s
       timeout: 3s
       retries: 10
@@ -19,7 +19,7 @@ services:
   backend:
     build: ./backend
     environment:
-      DATABASE_URL: postgresql+psycopg://finlex:finlex@postgres:5432/finlex
+      DATABASE_URL: postgresql+psycopg://insurance:insurance@postgres:5432/insurance
       LLM_PROVIDER: ${LLM_PROVIDER:-mock}
       OPENAI_API_KEY: ${OPENAI_API_KEY:-}
       OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4o-mini}

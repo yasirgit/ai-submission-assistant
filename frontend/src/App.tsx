@@ -4,7 +4,7 @@ import { SubmissionDetail } from "./pages/SubmissionDetail";
 import { SubmissionList } from "./pages/SubmissionList";
 import { CALLERS, DISCLAIMER } from "./types/api";
 
-const STORAGE_KEY = "finlex-user-id";
+const STORAGE_KEY = "insurance-user-id";
 
 function currentPath(): string {
   return window.location.pathname;
@@ -36,7 +36,7 @@ export function App() {
     <>
       <header className="top">
         <div>
-          <p className="brand">FINLEX submission assistant</p>
+          <p className="brand">Insurance submission assistant</p>
           <p className="disclaimer">{DISCLAIMER}</p>
         </div>
         <label>
